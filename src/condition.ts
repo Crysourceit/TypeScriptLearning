@@ -36,3 +36,20 @@ switch (service) {
 }
 
 console.log(`result = ${result2}`);
+
+// Loop
+
+for (let count: number = 1; count <= 10; count++) {
+  console.log(count);
+}
+
+// Array
+let users: string[] = ["kong", "boy", "big"];
+
+for (let i = 0; i < users.length; i++) {
+  console.log(users[i]);
+}
+
+users.forEach((ele) => {
+  console.log(ele);
+});
